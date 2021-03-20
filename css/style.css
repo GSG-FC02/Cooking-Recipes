@@ -11,17 +11,17 @@
   
   /* Style the search */
   #search-holder{
-      margin-top: 1.1rem;
-      position: fixed;
-  top: 0;
-  width: 100%;
+    margin-top: 1.1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   form.topsearch input[type=text] {
     padding: 10px;
     font-size: 20px;
     border: none;
     float: left;
-    width: 80%;
+    width: 300px;
     background-color: #00000000;
 
   }
@@ -34,7 +34,7 @@
   /* Style the search button */
   form.topsearch button {
     float: left;
-    width: 20%;
+    width: 50px;
     padding: 10px;
     color: #1C0F13;
     background-color: #00000000;
@@ -117,83 +117,49 @@
       color: #FFFFFF;
   } 
 /* --------------------------------------- */
-/* general style  for both 2 sections*/
-.recipe-title {
+#main-sections{
+    display : flex ; 
+    flex-direction: column;
+    margin-top: 70px;
+}
+#main-sections .recipe-title {
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
-.recipe-title .light-recipe-title {
+#main-sections .recipe-title .light-recipe-title {
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
 }
-.virtical-grid img{
-    width: 193px;
-    height: 121px;
+#main-sections .recipe-image .img {
+    width: 275px;
+    height: 187px;
 }
-.icons{
-    font-size: 10px;
-    font-weight: lighter;
-}
-.virtical-grid div {
-    margin-bottom: 15px;
-}
-.recipe-name {
-    font-size: 18px;
-    font-weight: bold;
-}
-/* ------------------------------------------- */
-
-
-/* inspiration page first section */
-.first-section-inspiration {
-    display: flex;
-    margin-top : 100px;
-    flex-direction: column;
-    align-items: center;
-
-
-}
-.first-section-inspiration div {
-    margin-bottom: 15px;
-}
-.first-section-inspiration .virtical-grid {
-    display : grid;
-    background-color: #ffffff;
-    padding: 27px;
-    width: 243px;
-    border-radius: 8px;
-
-}
-
-
-/* inspiration page second section */
-.second-section-inspiration{
-    display: flex;
-    margin-top : 64px;
-    flex-direction: column;
-    align-items: center;
-}
-.second-section-inspiration .recipe-title {
-    margin-left: 25px;
-    position: relative;
-    left: -63px;
-}
-.second-section-inspiration .virtical-grid{
+#main-sections .virtical-grid{
     display : grid;
     background-color: #ffffff;
     padding: 27px;
     width: 325px;
     border-radius: 8px;
-
+    margin: 18px;
 
 }
-.second-section-inspiration .content {
-    font-size: 16;
-    font-weight: lighter;
+#main-sections .icons{
+    font-size: 12px;
+    margin: 20px 0px 10px;
 }
-.second-section-inspiration .virtical-grid img {
-    width: 275px;
-    height: 187px;
+
+#main-sections .recipe-name{
+    font-weight: bold;
+    margin: 5px 0px;
+}
+#main-sections .content{
+    margin: 10px 0px;
+}
+#main-sections .recipes-recomandation{
+    display : grid;
+    width: 325px;
+    border-radius: 8px;
+    margin: 18px;
 }
