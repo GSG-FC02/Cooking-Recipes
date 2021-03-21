@@ -1,197 +1,195 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-  }
-  body{
-    background-color: #F5F3F1;
-    font-family: sans-serif;
-  }
-  
-  /* Style the search */
-  #search-holder{
-    margin-top: 1.1rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  form.topsearch input[type=text] {
-    padding: 10px;
-    font-size: 20px;
-    border: none;
-    float: left;
-    width: 300px;
-    background-color: #00000000;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f3f1;
+  font-family: sans-serif;
+}
 
-  }
- 
-  ::placeholder { 
-    color:#1C0F13 ;
-    font-weight: bold;
-  }
-  
-  /* Style the search button */
-  form.topsearch button {
-    float: left;
-    width: 50px;
-    padding: 10px;
-    color: #1C0F13;
-    background-color: #00000000;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
+a {
+  text-decoration: none;
+}
 
-  /* Clear floats */
-  form.topsearch::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+/* Style the search */
+#search-holder {
+  margin-top: 1.1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+form.topsearch input[type="text"] {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  float: left;
+  width: 300px;
+  background-color: #00000000;
+}
+
+::placeholder {
+  color: #1c0f13;
+  font-weight: bold;
+}
+
+/* Style the search button */
+form.topsearch button {
+  float: left;
+  width: 50px;
+  padding: 10px;
+  color: #1c0f13;
+  background-color: #00000000;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Clear floats */
+form.topsearch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* ------------------------------------- */
 
-  /* botton */
-.unfill-botton{
-    display: flex;
-    border: black 2px solid;
-    width : 315px;
-    height: 51px;
-    border-radius: 8px;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 17px;
-    margin-bottom: 100px;
+/* botton */
+.unfill-botton {
+  display: flex;
+  border: black 2px solid;
+  width: 315px;
+  height: 51px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 17px;
+  margin-bottom: 100px;
 }
-.unfill-botton:hover{
-    background-color: #1C0F13;
-    color: #FFFFFF;
+.unfill-botton:hover {
+  background-color: #1c0f13;
+  color: #ffffff;
 }
 
 /* ---------------------------------------*/
 /* nav bar style */
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 15px;
-    background-color: #FFFFFF;
-    position: fixed;
-    border-radius: 8px;
-    bottom: 0;
-    width: 345px;
-    height: 63px;
-    z-index: 5;
-    
-  }
-  .navbar i {
-      font-size: 20px;
-      padding-bottom: 5px;
-      color: #c4d0d994;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+  background-color: #ffffff;
+  position: fixed;
+  border-radius: 8px;
+  bottom: 0;
+  width: 345px;
+  height: 63px;
+  z-index: 5;
+}
+.navbar i {
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: #c4d0d994;
+}
 
-  .navbar a {
-    color: #1C0F13;
-    text-align: center;
-    text-decoration: none;
-    font-size: 12px;
-    padding: 5px;
-  }
-  
-  .navbar a:hover {
-    background: #1C0F13;
-    color: #FFFFFF;
-    border-radius: 8px;
-  }
-  
-  #active-page{
-    background: #1C0F13;
-    color: #FFFFFF;
-    border-radius: 8px;
+.navbar a {
+  color: #1c0f13;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 5px;
+}
 
-  }
-  #active-page i  {
-      color: #FFFFFF;
-  } 
+.navbar a:hover {
+  background: #1c0f13;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#active-page {
+  background: #1c0f13;
+  color: #ffffff;
+  border-radius: 8px;
+}
+#active-page i {
+  color: #ffffff;
+}
 /* --------------------------------------- */
-#main-sections{
-    display : flex ; 
-    flex-direction: column;
-    margin-top: 70px;
+#main-sections {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
 }
 #main-sections .recipe-title {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 #main-sections .recipe-title .light-recipe-title {
-    font-weight: lighter;
-    font-size: 25px;
+  font-weight: lighter;
+  font-size: 25px;
 }
 #main-sections .recipe-image .img {
-    width: 275px;
-    height: 187px;
+  width: 275px;
+  height: 187px;
 }
-#main-sections .virtical-grid{
-    display : grid;
-    background-color: #ffffff;
-    padding: 27px;
-    width: 325px;
-    border-radius: 8px;
-    margin: 18px;
+#main-sections .virtical-grid {
+  display: grid;
+  background-color: #ffffff;
+  padding: 27px;
+  width: 325px;
+  border-radius: 8px;
+  margin: 18px;
+}
+#main-sections .icons {
+  font-size: 12px;
+  margin: 20px 0px 10px;
+}
 
+#main-sections .recipe-name {
+  font-weight: bold;
+  margin: 5px 0px;
 }
-#main-sections .icons{
-    font-size: 12px;
-    margin: 20px 0px 10px;
+#main-sections .content {
+  margin: 10px 0px;
 }
-
-#main-sections .recipe-name{
-    font-weight: bold;
-    margin: 5px 0px;
-}
-#main-sections .content{
-    margin: 10px 0px;
-}
-#main-sections .recipes-recomandation{
-    display : grid;
-    width: 325px;
-    border-radius: 8px;
-    margin: 18px;
+#main-sections .recipes-recomandation {
+  display: grid;
+  width: 325px;
+  border-radius: 8px;
+  margin: 18px;
 }
 
 /* Ibrahim styling under this line =============================== */
-#cooking-time h1{
-font-size: 20px;
-margin: 1.1rem 15px 1.1rem 15px;
-text-align: center;
-width: 345px;
-}
-.steps{
+#cooking-time h1 {
+  font-size: 20px;
+  margin: 1.1rem 15px 1.1rem 15px;
+  text-align: center;
   width: 345px;
-  background-color: #FFFFFF;
+}
+.steps {
+  width: 345px;
+  background-color: #ffffff;
   padding: 15px;
-  margin: 15px ;
+  margin: 15px;
   border-radius: 5px;
 }
-.step-number{
+.step-number {
   font-size: 12px;
   float: left;
 }
-.status{
+.status {
   font-size: 12px;
   float: right;
 }
-.procedures{
+.procedures {
   clear: both;
   padding: 20px;
-  
 }
-.program{
+.program {
   position: relative;
   width: 345px;
   height: 245px;
@@ -201,45 +199,40 @@ width: 345px;
   justify-content: center;
   align-items: center;
 }
-.program .circle{
+.program .circle {
   position: relative;
   width: 210px;
   height: 210px;
   justify-content: center;
   justify-items: center;
-
 }
-.program .circle svg{
+.program .circle svg {
   position: relative;
   width: 210px;
   height: 210px;
 }
-.program .circle svg circle{
+.program .circle svg circle {
   width: 210px;
   height: 210px;
   fill: none;
   stroke-width: 5;
   stroke: black;
-  transform: translate(5px,5px);
+  transform: translate(5px, 5px);
   stroke-dasharray: 630;
   stroke-dashoffset: 630;
-
 }
-.program .circle svg circle:nth-child(1){
+.program .circle svg circle:nth-child(1) {
   stroke-dashoffset: 0;
-  stroke: #F0EEEC;
-
+  stroke: #f0eeec;
 }
-.program .circle svg circle:nth-child(2){
-
-stroke-dasharray: 70,5,70,5,70,405;
-stroke-dashoffset: 150;
+.program .circle svg circle:nth-child(2) {
+  stroke-dasharray: 70, 5, 70, 5, 70, 405;
+  stroke-dashoffset: 150;
 }
 
-
-.program .circle .title{
+.program .circle .title {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -247,16 +240,128 @@ stroke-dashoffset: 150;
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
-.number{
+.number {
   font-size: 54px;
   font-weight: bolder;
 }
-.title p{
-  color: #1C0F13;
+.title p {
+  color: #1c0f13;
 }
 
-
-
 /* Ibrahim styling above this line =============================== */
+
+/* hakim */
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0.8rem 6.8rem;
+  color: #fff;
+  background: #1c0f13;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* Start Index Page */
+/* header */
+#index-header {
+  width: 90%;
+  height: 1.8rem;
+  text-align: center;
+  line-height: 1.6rem;
+  margin: 3.3rem 5% 9.1rem 5%;
+}
+
+#index-header h2 {
+  font-size: 1.5rem;
+}
+
+/* indexcontent */
+#index-content {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#index-content .content-img {
+  margin-bottom: 3rem;
+}
+
+#index-content .content-prag {
+  width: 85%;
+  margin: 0 7.25%;
+  margin-bottom: 9.1rem;
+}
+
+#index-content .content-prag .title {
+  font-size: 1.9rem;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+
+#index-content .content-prag .copyright {
+  font-size: 1.1rem;
+}
+
+/* End Index Page */
+/* Start Myrecipes Page */
+/* header */
+#recipes-header {
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+
+#recipes-header h2 {
+  font-size: 1.3rem;
+  /* margin: 3rem 5% 0 5%; */
+  padding: 1.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  background-color: #f5f3f1;
+}
+
+/* content */
+#recipes-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0.3rem;
+  margin-top: 4.8rem;
+  /* border: 1px solid #000; */
+}
+
+#recipes-content .box1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 200px;
+  height: 270px;
+  padding: 0.7rem;
+  margin: 0.3rem 0;
+  border-radius: 5px;
+  border: 1px solid rgb(212, 207, 207);
+}
+
+#recipes-content .box1 img {
+  margin-bottom: 0.5rem;
+}
+
+#recipes-content .box1 p {
+  line-height: 18px;
+  margin-bottom: 1.5rem;
+  opacity: 0.5;
+}
+
+#recipes-content .box1 .icons {
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+}
+
+#recipes-content .box1 .icons span {
+  opacity: 0.5;
+}
