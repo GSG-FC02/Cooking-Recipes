@@ -1,5 +1,5 @@
 # Cooking-Recipes
-# Welcome To Our First Project, "GalleryNSM"
+# Welcome To Our First Project, "Cooking-Recipes"
 ## Introduction
 This is our secound project as members of **The Fundamentals Course** at Code Academy at GazaSkyGeeks organization and it will be a Cooking-Recipes mobile site.
 
@@ -19,10 +19,10 @@ This is our secound project as members of **The Fundamentals Course** at Code Ac
 Welcome to our Cooking-Recipes Webiste
 We have designed it for You!
 
-In our Website you can:
+In our Website you can find:
 1. All the recipes on your fingertips
 2. Inspirations for Recipe of the day
-3. All recipes that you save
+3. All recipes that you saved
 4. The time taken for each recipe to mature 
 5. This website will let you have great experience exploring the different and tasty recipes around the world.
 
